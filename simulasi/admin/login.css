@@ -1,0 +1,39 @@
+*{
+    font-family: 'Poppins' , sans-serif;
+}
+
+body {
+    background-image: url(background_putih_biru.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+}
+
+.login-container input[type=text],
+.login-container input[type=password] {
+    padding: 10px;
+}

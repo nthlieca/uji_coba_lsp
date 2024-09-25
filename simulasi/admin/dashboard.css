@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.sidebar {
+    background-image: url(background_putih_biru.jpg);
+    width: 200px;
+    height: 601px;
+    padding: 30px;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+.sidebar ul li a{
+    color: rgb(94, 145, 248);
+    text-decoration: none;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 30px;
+}
+
+.header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: left;
+    color: rgb(94, 145, 248);
+    border-radius: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-box{
+    background: rgb(237, 237, 237);
+    border-radius: 15px;
+    color: rgba(113, 99, 186, 255);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+
+.search-box input{
+    background: transparent;
+    padding: 10px;
+}
+
+table {
+    width: calc(100% - 248px);
+    margin-left: 228px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 210px;
+    text-align: left;
+    color: rgb(94, 145, 248);
+}
+
+tr {
+    padding: 30px;
+   box-sizing: border-box;
+   margin-left: 215px;
+}
